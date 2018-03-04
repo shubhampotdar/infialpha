@@ -1,0 +1,99 @@
+.toplogo {
+	z-index: 999;
+	padding-left: 10%;
+}
+
+.first {
+	height: 450px;
+	background: #1a2a6c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	width: 100%;
+	margin-right: 0;
+
+}
+
+.navbar {
+	background: #0f0c29 !important;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29) !important;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	color: white !important;
+}
+
+.navbar-brand {
+	color: white !important;
+}
+
+.nav-item:hover {
+	background-color: red;
+	-webkit-transition: 2s; /* Safari */
+    transition: 2s;
+}
+
+.nav-link {
+	color: white !important;
+}
+
+.srmlogodiv {
+	position: relative;
+}
+
+.srmlogo {
+	position: absolute;
+	right: 0;
+	margin-right: 10%;
+}
+
+.hlpi {
+	text-align: center;
+}
+
+.tagline {
+	font-family: 'Krona One', sans-serif;
+	font-size: 120%;
+	color: white;
+	text-align: center;
+	
+}
+
+.aboutusheading {
+	text-align: center;
+	
+}
+
+.aboutuscontent {
+	text-align: center;
+	padding-top: 2%;
+}
+
+.second {
+	background-color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 130%;
+}
+
+hr {
+	   border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.elondiv {
+	background-image: url(elon.png);
+	height: 420px;
+
+	 background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left;
+    /*background-size: 600px 600px;*/
+    	background-attachment: fixed;
+}
+
+.elonquote {
+	text-align: center;
+	padding-top: 5%;
+	font-family: 'Anton', sans-serif;
+	font-size: 120%;
+	padding-left: 25%;
+}

@@ -13,6 +13,7 @@ background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+
 
 }
 
+
 .navbar {
 	background: #0f0c29 !important;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29) !important;  /* Chrome 10-25, Safari 5.1-6 */
@@ -57,17 +58,17 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29) !important; /* 
 	
 }
 
-.aboutusheading {
+.aboutusheading,.domainsheading {
 	text-align: center;
 	
 }
 
-.aboutuscontent {
+.aboutuscontent,.domainscontent {
 	text-align: center;
 	padding-top: 2%;
 }
 
-.second {
+.second,.third {
 	background-color: white;
 	font-family: 'Raleway', sans-serif;
 	font-size: 130%;
@@ -96,4 +97,47 @@ hr {
 	font-family: 'Anton', sans-serif;
 	font-size: 120%;
 	padding-left: 25%;
+}
+
+.affix {
+	      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+}
+
+.topdomainsdiv, .bottomdomainsdiv {
+	text-align: center;
+}
+
+.topdomainsbtn, .bottomdomainsbtn {
+	font-family: 'Krona One', sans-serif;
+	padding: 5%;
+	margin: 3%;
+}
+
+/*.domainscontainer {
+	width: 100%;
+	background-image: url(domainsbackground.jpg);
+    background-size: auto;
+    background-position: center;
+}*/
+
+.contactdiv {
+	height: 450px;
+	background-color: blue;
+	background-image: url(domainsbackground.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	 background-blend-mode: lighten;
+	width: 100%;
+	padding-top: 3%;
+	padding-left: 2%;
+
+}
+
+.contacth {
+	border-bottom: 2px solid red;
+	width: 30%;
 }

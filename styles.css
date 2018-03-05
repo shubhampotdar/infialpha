@@ -58,7 +58,7 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29) !important; /* 
 	
 }
 
-.aboutusheading,.domainsheading {
+.aboutusheading,.domainsheading, .sponsorsheading {
 	text-align: center;
 	
 }

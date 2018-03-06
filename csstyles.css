@@ -1,0 +1,35 @@
+body {
+	background-image: url(b1.jfif);
+	/*background-color: yellow;*/
+	/*	 background-blend-mode: lighten;*/
+}
+
+html {
+	height: 100%;
+}
+
+#center {
+		text-align: center;
+	padding-top: 12%;
+}
+
+#logo {
+	height: 17%;
+	width: 17%;
+}
+
+#cs {
+	font-family: 'Oswald', sans-serif;
+	font-size: 700%;
+	color: white;
+}
+
+.underprogress {
+	color: white;
+	font-size: 200%;
+}
+
+.socialicons {
+	font-size: 300%;
+	color: black;
+}

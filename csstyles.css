@@ -3,6 +3,8 @@ body {
 	/*background-color: yellow;*/
 	/*	 background-blend-mode: lighten;*/
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 html {

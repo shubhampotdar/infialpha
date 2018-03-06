@@ -2,6 +2,7 @@ body {
 	background-image: url(b1.jfif);
 	/*background-color: yellow;*/
 	/*	 background-blend-mode: lighten;*/
+	background-repeat: no-repeat;
 }
 
 html {
